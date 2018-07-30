@@ -3035,13 +3035,6 @@ fusion-plugin-universal-events@^1.0.5:
   dependencies:
     koa-bodyparser "4.2.0"
 
-fusion-plugin-universal-logger@^1.0.4:
-  version "1.0.4"
-  resolved "https://unpm.uberinternal.com/fusion-plugin-universal-logger/-/fusion-plugin-universal-logger-1.0.4.tgz#5d2d9d9dba07e66f4d7fb5a835c898c723373a91"
-  dependencies:
-    winston "^3.0.0"
-    winston-transport "^4.2.0"
-
 fusion-react-async@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/fusion-react-async/-/fusion-react-async-1.2.3.tgz#80ada64a8923baa83d6cf60f14e8d8ce0bf62c1f"

@@ -1,12 +1,10 @@
 // @flow
 import {createPlugin, type Context} from 'fusion-core';
-import {LoggerToken} from 'fusion-tokens';
 
 export default createPlugin({
-  deps: {logger: LoggerToken},
-  middleware({logger}) {
+  middleware() {
     return (ctx: Context, next: () => Promise<*>): Promise<*> => {
-      logger.info('Hello server!');
+      console.log('Hello server!');
       return next();
     };
   },

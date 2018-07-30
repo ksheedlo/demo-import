@@ -11,13 +11,13 @@ import root from './root.js';
 
 export default () => {
   const app = new App(root);
-	if (__BROWSER__) {
-		app.register(FetchToken, window.fetch);
-	}
+  if (__BROWSER__) {
+    app.register(FetchToken, window.fetch);
+  }
   app.register(Styletron);
   app.register(Router);
-	app.register(UniversalEventsToken, UniversalEventsPlugin);
-	app.register(LoggerToken, UniversalLogger);
-	app.register(Plugin);
+  app.register(UniversalEventsToken, UniversalEventsPlugin);
+  app.register(LoggerToken, UniversalLogger);
+  app.register(Plugin);
   return app;
 };

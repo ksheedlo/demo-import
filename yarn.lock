@@ -3031,9 +3031,16 @@ fusion-plugin-styletron-react@^2.5.0:
 
 fusion-plugin-universal-events@^1.0.5:
   version "1.0.5"
-  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-1.0.5.tgz#df0756b82e2d9b20e009ad35119715c045420083"
+  resolved "https://unpm.uberinternal.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-1.0.5.tgz#df0756b82e2d9b20e009ad35119715c045420083"
   dependencies:
     koa-bodyparser "4.2.0"
+
+fusion-plugin-universal-logger@^1.0.4:
+  version "1.0.4"
+  resolved "https://unpm.uberinternal.com/fusion-plugin-universal-logger/-/fusion-plugin-universal-logger-1.0.4.tgz#5d2d9d9dba07e66f4d7fb5a835c898c723373a91"
+  dependencies:
+    winston "^3.0.0"
+    winston-transport "^4.2.0"
 
 fusion-react-async@^1.2.3:
   version "1.2.3"

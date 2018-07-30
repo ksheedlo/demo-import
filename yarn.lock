@@ -3031,7 +3031,7 @@ fusion-plugin-styletron-react@^2.5.0:
 
 fusion-plugin-universal-events@^1.0.5:
   version "1.0.5"
-  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-1.0.5.tgz#df0756b82e2d9b20e009ad35119715c045420083"
+  resolved "https://unpm.uberinternal.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-1.0.5.tgz#df0756b82e2d9b20e009ad35119715c045420083"
   dependencies:
     koa-bodyparser "4.2.0"
 
